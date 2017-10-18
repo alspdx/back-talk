@@ -1,0 +1,8 @@
+.body {
+  background: linear-gradient(to right, #027e8c, #13c2d6, #77dae5, #77dae5, #77dae5, #13c2d6, #027e8c)
+}
+
+.puppykittyimgs {
+  max-height: 400px;
+  max-width: 100%;
+}
