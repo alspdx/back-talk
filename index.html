@@ -8,24 +8,31 @@
     <script src="js/scripts.js"></script>
     <title>Backtalk</title>
   </head>
-  <body class="body">
-    <div class="container">
+  <body class="colortheme">
+    <div class="container-responsive">
       <div class="row text-center">
-        <div class="col-md-12">
-          <div class="jumbotron text-light">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+          <div class="jumbotron">
             <div class="container">
               <h1 class="display-2">CAT VS DOG</h1>
               <p class="lead">Head-to-head face-off!</p>
             </div>
           </div>
         </div>
+        <div class="col-md-3">
+          <div class="buttontoggler">
+            <button type="button" class="btn float-right btn-outline-light buttonshowing" id="buttondarktheme">Dark Theme</button>
+            <button type="button" class="btn float-right btn-dark buttonhidden" id="buttoncolortheme">Color Theme</button>
+          </div>
+        </div>
       </div>
-      <div class="row text-light">
+      <div class="row">
         <div class="col-md-6">
           <div>
             <img src="images/cat1.png" class="img-fluid puppykittyimgs float-right"  id="nicekitty" alt="A very angry cat">
             <ul id="kittymeow">
-
             </ul>
           </div>
         </div>
@@ -33,13 +40,9 @@
           <div class="">
             <img src="images/dog.png" class="img-fluid puppykittyimgs float-left" id="goodboy" alt="A very naive dog">
             <ul id="doggybark">
-
             </ul>
           </div>
         </div>
-      </div>
-      <div class="row">
-
       </div>
     </div>
   </body>

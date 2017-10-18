@@ -1,20 +1,39 @@
-.body {
-  background: linear-gradient(to right, #027e8c, #13c2d6, #77dae5, #77dae5, #77dae5, #13c2d6, #027e8c)
+.colortheme {
+  background: linear-gradient(to right, #027e8c, #13c2d6, #77dae5, #77dae5, #77dae5, #13c2d6, #027e8c);
+  color: #F7F7F7;
+}
+
+.darktheme {
+  background-color: #333333;
+  color: #77dae5;
 }
 
 .jumbotron {
   background-color: transparent;
 }
 
-#nicekitty {
-
-}
-
-#goodboy {
-
-}
-
 .puppykittyimgs {
   max-height: 400px;
   max-width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+#buttoncolortheme {
+  outline: #77dae5 solid 1px;
+  background-color: #333333;
+  color: #77dae5;
+  box-shadow: none;
+  display: none;
+}
+
+#buttondarktheme {
+  outline: #F7F7F7 solid 1px;
+  background-color: #77dae5;
+  color: #F7F7F7;
+  box-shadow: none;
 }
