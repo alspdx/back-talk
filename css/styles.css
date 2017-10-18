@@ -33,7 +33,7 @@
 
 #buttondarktheme {
   outline: #F7F7F7 solid 1px;
-  background-color: #77dae5;
+  background-color: transparent;
   color: #F7F7F7;
   box-shadow: none;
 }
